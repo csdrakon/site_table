@@ -1,0 +1,67 @@
+table {
+  margin : 0px 0px 0px 50px;
+  border-spacing: 2;
+}
+
+.table th {
+  padding : 11px;
+}
+
+.table td {
+  background : #47a9e6; 
+}
+
+.table td, th {
+  border : 1px solid white;
+  border-width : thin;
+  border-style:double;
+  display : inline-table;
+  padding : 25px;
+  margin-top : -2px;
+}
+
+.table td:first-child  {
+  display : none;
+  position : absolute;
+  margin-left : -52px;
+  width : 0px;
+  height : 0px;
+}
+
+.table tr:hover {
+  display : inline-table;
+  margin: -2px 0 -2px -2px;
+}
+
+.table tr:hover td:first-child {
+  display : block;
+  background : #b20000;
+  
+}
+
+.remove_row:hover {
+  display : none;
+}
+
+.table tr:last-child td:first-child {
+  display :none;
+  position : absolute;
+}
+
+.table tr: first-child td:first-child {
+  display: none;
+}
+
+.table tr:last-child td:nth-child(2) {
+  position:relative;
+}
+
+.table .add_table {
+  background : #f4a50a; 
+  position : absolute;
+  padding : 10px;
+}
+
+
+
+

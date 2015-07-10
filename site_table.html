@@ -1,0 +1,56 @@
+<html>
+	<body>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="./site_table.js"></script>
+    <link rel="stylesheet" type="text/css" href="./site_table.css">
+    <table id="tableid" class="table">
+      <thead>
+      <tr id="head">
+          <th></th>
+          <th id="table_head">-</th>
+          <th class="remove_column">-</th>
+          <th class="remove_column">-</th>
+          <th class="remove_column">-</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td class = "remove_row">-</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class = "add_table" id= "buttonid">
+           <input type="button" value = "+" onclick="add_Row('tableid')" />
+        </td>
+      </tr>
+      <tr>
+        <td class = "remove_row">-</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class = "remove_row">-</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class = "remove_row">-</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class = "add_table" id='last'>
+          <input type = "button" value = "+" onclick = "addColumn('tableid')" />
+      </tr>
+      </tbody>
+    </table>
+</body>
+</html>
